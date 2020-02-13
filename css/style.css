@@ -1,0 +1,244 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 1.1em;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3,h4
+{
+    text-align: center;
+    font-family: "Rubik";
+}
+
+#h2_developpeur_web, #junior
+{
+    font-family: "Rubik";
+    font-size: 2em;
+}
+
+h3
+{
+    text-decoration: underline #00746b;
+}
+
+h2
+{
+    background: #d7d7d7;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover
+{
+    border-bottom: 2px solid black;
+}
+
+
+main
+{
+    width: 65%;
+    padding-top: 2%;
+    background: #f2f5f7;
+}
+
+/*HEADER*/
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#david
+{   
+    color: #00746b;
+}
+
+
+#junior
+{
+    font-size: 1.2em;
+    color: #00746b;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/*FORMATION*/
+
+#section_formation
+{
+    align-self: center;
+    margin-top: 15%;
+}
+
+#formation
+{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5%;
+}
+
+/*EXPERIENCE PROFESSIONNELLES */
+
+#section_ex_pro
+{
+    align-self: center;
+    margin-top: 15%;
+}
+
+#ex_pro
+{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5%;
+}
+
+/*COMPETENCES*/
+
+#competences
+{
+    align-self: center;
+    margin-top: 15%;
+}
+
+#titre_dev_pao
+{
+    text-decoration: underline  #fff;
+    margin-top: 2%;
+}
+
+#logo_competences
+{ 
+    margin-top: 7%;
+    font-size: 1em;
+}
+
+.fa-html5
+{
+    color: #fd7e14;
+}
+
+.fa-css3
+{
+    color: #029ae5;
+}
+
+.fa-sass
+{
+    color: #ce6798;
+}
+
+.fa-js-square
+{
+    color:#f5de19;
+}
+
+.fa-node
+{
+    color: #82c91e;
+}
+
+.fa-adobe
+{
+    color:#e32521;
+}
+
+#dev_pao > ul > li
+{
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+#list_dev_pao
+{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 3em;
+    text-align:center;
+}
+
+.logo_dev_pao
+{
+    margin: auto;
+}
+
+
+/*ASIDE*/
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background: #00746b;
+    font-family: "Rubik";
+    border-radius: 7px;
+    border-right:4px solid #000;
+}
+
+#img_hero
+{
+    display: flex;
+    justify-content: center;
+}
+
+ul li
+{
+    list-style: none;
+    color: #000;
+}
+
+li > a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo_contact
+{
+    font-size: 1.4em;
+}
+
+.contact
+{
+    margin: 3%
+}
+
+.bio
+{
+    text-align: justify;
+    margin: 4% 4% auto;
+    font-style: italic;
+}
+
+#loisirs
+{
+    display: flex;
+    flex-direction:column;
+}
+
+#loisirs div
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    margin-top: 2%;
+}
