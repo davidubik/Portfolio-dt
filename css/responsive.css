@@ -2,7 +2,7 @@
 
 /* TABLETTE */
 
-@media screen and (max-width:960px) 
+@media screen and (max-width:960px)
 {
 
     *
@@ -10,26 +10,51 @@
         margin: 0;
         padding: 0;
     }
-    
-    .dates
-    {
-        display:none;
-    }
 
     body
     {
         width: 100%;
     }
-    
+
+  /*MAIN*/
+
+    .dates
+    {
+        display:none;
+    }
+
     p
     {
-        margin-bottom: 2%; 
+        margin-bottom: 2%;
     }
 
     #container
     {
         display: flex;
         justify-content: space-around;
+    }
+
+    #section_formation, #section_ex_pro, #competences
+    {
+        margin-top: 25%;
+    }
+
+     #formation
+    {
+        margin-left : 2%;
+    }
+
+    /* COMPETENCES */
+
+    #list_dev_pao
+    {
+        flex-wrap: wrap;
+        font-size: 3.7em;
+    }
+
+    .logo_dev_pao
+    {
+        flex-basis: 2em;
     }
 
     /* ASIDE */
@@ -48,24 +73,10 @@
         margin-bottom:0;
     }
 
-    /* MAIN */
-
-  #formation
+    .bio
     {
-        margin-left : 2%;
-    }
-
-    /* COMPETENCES */
-
-    #list_dev_pao
-    {
-        flex-wrap: wrap;
-        font-size: 3.7em;
-    }
-
-    .logo_dev_pao
-    {
-        flex-basis: 2em;
+        margin-top: 5%;
+        margin-bottom: 15%;
     }
 
     /*LOISIRS*/
@@ -106,7 +117,7 @@
     }
 
     /*MAIN*/
-  
+
     main
     {
         width: 100%;
@@ -133,12 +144,12 @@
     {
         margin-top: 2%;
     }
-    
+
     #loisirs div i
     {
         margin-bottom: 4%;
     }
-    
+
     #bio
     {
         text-align:justify;
@@ -172,7 +183,7 @@
     /*CONTAINER, MAIN, HEADER*/
     #container
     {
-        width:100%;  
+        width:100%;
         display: flex;
         justify-content: center;
         flex-direction: column-reverse;
@@ -202,7 +213,7 @@
     {
         margin-top: 2%;
     }
-    
+
     .dates
     {
         display: none;
@@ -221,7 +232,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: -5;
+        margin-top: 5%;
         font-size: 3em;
     }
 

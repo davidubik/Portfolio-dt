@@ -1,3 +1,5 @@
+
+/*GENERAL*/
 *
 {
     box-sizing: border-box;
@@ -6,6 +8,7 @@
 body
 {
     font-size: 1.1em;
+    margin: 0;
 }
 
 #container
@@ -20,11 +23,6 @@ h1, h2, h3,h4
     font-family: "Rubik";
 }
 
-#h2_developpeur_web, #junior
-{
-    font-family: "Rubik";
-    font-size: 2em;
-}
 
 h3
 {
@@ -50,7 +48,7 @@ a:hover
 
 main
 {
-    width: 65%;
+    width: 70%;
     padding-top: 2%;
     background: #f2f5f7;
 }
@@ -64,9 +62,14 @@ header
     text-align: center;
 }
 
+#h2_developpeur_web, #junior
+{
+    font-family: "Rubik";
+    font-size: 2em;
+}
 
 #david
-{   
+{
     color: #00746b;
 }
 
@@ -124,11 +127,14 @@ header
     margin-top: 2%;
 }
 
+  /*LOGO COMPETENCES*/
+
 #logo_competences
-{ 
+{
     margin-top: 7%;
     font-size: 1em;
 }
+
 
 .fa-html5
 {
@@ -187,7 +193,7 @@ aside
 {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     background: #00746b;
     font-family: "Rubik";
     border-radius: 7px;
@@ -200,15 +206,9 @@ aside
     justify-content: center;
 }
 
-ul li
+ul li, a
 {
     list-style: none;
-    color: #000;
-}
-
-li > a
-{
-    text-decoration: none;
     color: #000;
 }
 
